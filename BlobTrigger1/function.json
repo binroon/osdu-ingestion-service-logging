@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "InputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "airflow-logs/{name}",
+      "connection": "log2s_STORAGE"
+    }
+  ]
+}
